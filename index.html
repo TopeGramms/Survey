@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1 id="title">TopeGramm's Survey Form</h1>
+          <p id="description">Thank you for taking the time to do this survey</p>
+          
+          <form id="survey-form">
+            <fieldset>
+                <legend>General Information</legend>
+              <div class="Info"> 
+              <label for="name" id="name-label">Nickname
+                 <input type="text" id="name" placeholder="Enter Name" required/></label><br>
+              <label for="email" id="email-label" >Email
+                <input type="email" id="email" placeholder="@gmail.com" required /></label><br>
+              <label for="number" id="number-label" >Age 
+                <input type="number" id="number"  placeholder="enter age" min="1" max="95" required/></label>
+            </div><br>
+    
+             <div class="dropdown"> 
+              <label for="dropdown">which describes your relationship with him</label><br>
+              <select id="dropdown" name="dropdown" required>
+                <option value="">choose an option:</option>
+                <option value="1">Acquaintance</option>
+                <option value="2">Friend</option>
+                <option value="3">Gee</option>
+                <option value="4">Intimate</option>
+                <option value="5">Stranger</option>
+              </select>
+            </div>
+    
+              <div class="radio">
+                <p>How well do you think you know him?</p>
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Definitely</label><br>
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Maybe</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Don't know</label> 
+              </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Personality traits
+                </legend>
+                <div class="radio">
+                    <p>how would you describe his Personality?(choose all apply)</p>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Friendly</label><br>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Outgoing</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Introverted</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Serious</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Funny</label><br> 
+                  </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Communication Skills
+                </legend>
+                <div class="skills">
+                    <p>How effective do you this he is at communicating his thoughts and ideas?</p>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Very Effective</label><br>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Effective</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Meh..</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Ineffective</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Very Ineffective</label><br> 
+                  </div>
+                <div class="skills">
+                    <p>How would you rate his listening skills?</p>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Excellent</label><br>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Good</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Meh..</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Poor</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Very Poor</label><br> 
+                  </div>
+                <div class="skills">
+                    <p>Do you feel heard and understood when you communicate with him?</p>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Always</label><br>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Most of the time</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Sometimes</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Barely</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Never</label><br> 
+                  </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Professional Skills
+                </legend>
+                <div class="radio">
+                    <p>How would you rate his ability to work in a team?</p>
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Excellent</label><br>
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Good</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Meh..</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Poor</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Very Poor</label><br>  
+                  </div>
+                <div class="radio">
+                    <p>How do you perceive his problem-solving skills?</p>
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Excellent</label><br>
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Good</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Meh..</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Poor</label><br> 
+                    <label for="radio" id="radio-label">
+                 <input type="radio" id="radio" value="radio" name="radio"/>Very Poor</label><br>  
+                  </div>
+                <div class="text">
+                    <p>What do you think he needs to improve in?</p>
+                    <textarea name="PS" id="PS" placeholder="Shoot..."></textarea>  
+                  </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Personal Interactions
+                </legend>
+                <div class="skills">
+                    <p>How often do you think he's reliable and trustworthy?</p>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Always</label><br>
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Most of the time</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Sometimes</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Barely</label><br> 
+                        <label for="radio" id="radio-label">
+                     <input type="radio" id="radio" value="radio" name="radio"/>Never</label><br> 
+                  </div>
+                <div class="skills">
+                    <p>Do you feel comfortable sharing personal matters with him?</p>
+                    <label for="radio" id="radio-label">
+                        <input type="radio" id="radio" value="radio" name="radio"/>Always</label><br>
+                           <label for="radio" id="radio-label">
+                        <input type="radio" id="radio" value="radio" name="radio"/>Most of the time</label><br> 
+                           <label for="radio" id="radio-label">
+                        <input type="radio" id="radio" value="radio" name="radio"/>Sometimes</label><br> 
+                           <label for="radio" id="radio-label">
+                        <input type="radio" id="radio" value="radio" name="radio"/>Barely</label><br> 
+                           <label for="radio" id="radio-label">
+                        <input type="radio" id="radio" value="radio" name="radio"/>Never</label><br> 
+                     </div>
+                     <div class="text">
+                        <p>If this is your last chance, what would you want to say to him?</p>
+                        <textarea name="PS" id="PS" placeholder="Shoot..."></textarea>  
+                      </div>
+      
+            </fieldset>
+            <div class="submit">
+              <input type="submit" id="submit"/>
+              <div>
+          </form>
+</body>
+</html>
